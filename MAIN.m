@@ -13,9 +13,11 @@
 %
 % SOURCE: 
 %
+% [1] Dalton Durant and Renato Zanetti. "Batch Processing Tracklets in the 
+% GM-PHD Filter". Advances In Space Research. 2025.
+%
 clc; clear all; close all; 
 w = warning ('off','all');
-%parfevalOnAll(@warning,0,'off','all');
 addpath('Filters\');
 addpath('Support\');
 seed = 42; % random seed value
